@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta htte-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>건강관리</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>인바디 결과를 토대로한 건강관리</h1>
+    <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA0MjdfMjQ4%2FMDAxNjE5NTE4MzY0Mzgz.XnJMiI43tVqp7KL8rrKI80JDadpHWdqrxQf6w14KIc4g.qLwHyFoc0F4lA6kQ0aIJZIs-d4xOrLOEuZ2vZrZKTCYg.PNG.bpgym2%2F%25C7%25EF%25C3%25A2.png&type=a340" alt="">
+  <from>
+    <br>
+  <label for="아이디">아이디<br></label> 
+  <input id="아이디" type="text"> <br><br>
+  <label for="password">비밀번호<br></label>
+  <input id="password" type="password">  <br><br>
+  <button type="sumit">로그인</button>
+  <button id="signup" type="reset">회원가입</button>
+  <br><br><br><br><br><br>
+</from>
+<button id="다이어트" class="my_btn">다이어트</button>
+<br><br>
+<button id="근성장" class="my_btn" >근성장</button>
+<br><br>
+<button id="인바디" class="my_btn" >인바디</button>
+<script>
+  document.getElementById("다이어트").addEventListener("click", function() {
+window.location.href = "/다이어트.html";
+});
+document.getElementById("근성장").addEventListener("click", function() {
+window.location.href = "/근성장.html";
+});
+document.getElementById("signup").addEventListener("click", function() {
+window.location.href = "/회원가입.html";
+});
+document.getElementById("인바디").addEventListener("click", function() {
+window.location.href = "/인바디.html";
+});
+</script>
+</body>
+</html>
